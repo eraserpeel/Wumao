@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#024A68"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:text="Chinese Characters"
+        android:textColor="#024A68" 
+        android:layout_weight="0.05"/>
+
+    <RadioGroup
+        android:id="@+id/radioChineseText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.10" >
+
+        <RadioButton
+            android:id="@+id/radioButtonSimplified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:checked="true"
+            android:text="Simplifed" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTraditional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radioButtonSimplified"
+            android:checked="false"
+            android:text="Traditional" />
+
+    </RadioGroup>
+ 	
+ 	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:background="#FFFFFF"
+        android:text="Card Set "
+        android:textColor="#024A68" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+    </ListView>
+
+</LinearLayout>

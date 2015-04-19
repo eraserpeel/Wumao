@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#024A68"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ly_progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:background="#024A68"
+        android:gravity="left" >
+
+        <TextView
+            android:id="@+id/txtCardSetName"
+            android:text="Cards Played"
+            android:layout_width="fill_parent"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/txtMastered"
+            android:text="Mastered: "
+            android:layout_width="fill_parent"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/lyRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ly_progressbar"
+        android:background="#024A68"
+        >
+
+        <Button
+            android:id="@+id/btnRow1A"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="shuffledOnClick"
+            android:text="我"
+            android:layout_weight = "1"
+            android:background="@drawable/main_button"
+            android:textColor="#024A68"
+            android:layout_marginRight="2sp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow1B"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight = "1"
+            android:onClick="shuffledOnClick"
+            android:text="铁"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow1C"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="shuffledOnClick"
+            android:layout_weight = "1"
+            android:text="有"
+            android:textColor="#024A68"
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button" 
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow1D"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="shuffledOnClick"
+            android:layout_weight = "1"
+            android:text="励"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow1E"
+            style="?android:attr/buttonStyleSmall"
+           	android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="shuffledOnClick"
+            android:layout_weight = "1"
+            android:text="怕"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow1F"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="shuffledOnClick"
+            android:layout_weight = "1"
+            android:text="别"
+            android:textColor="#024A68" 
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/lyPinyinRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/lyRow1"
+        android:background="#C7C7C7" >
+
+        <TextView
+            android:id="@+id/pinyin1A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C7C7C7"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin1B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C7C7C7"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin1C"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C7C7C7"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin1D"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C7C7C7"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin1E"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C7C7C7"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin1F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C7C7C7"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/lyRow2"
+        android:layout_width="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_height="40dp"
+        android:background="#024A68" >
+
+        <Button
+            android:id="@+id/btnRow2A"
+            style="?android:attr/buttonStyleSmall"
+           	android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow2B"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="铁"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow2C"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="有"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow2D"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="励"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow2E"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="怕"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow2F"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="别"
+            android:textColor="#024A68" 
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+    </LinearLayout> 
+    
+    <LinearLayout
+        android:id="@+id/lyPinyinRow2"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/lyRow2"
+        android:layout_height="16dp"
+        android:background="#C7C7C7" >
+
+        <TextView
+            android:id="@+id/pinyin2A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin2B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin2C"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin2D"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin2E"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin2F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/lyRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lyPinyinRow2"
+        android:background="#024A68" >
+
+        <Button
+            android:id="@+id/btnRow3A"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow3B"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="铁"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow3C"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="有"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow3D"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="励"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow3E"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="怕"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow3F"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="shuffledOnClick"
+            android:text="别"
+            android:textColor="#024A68" 
+            android:background="@drawable/main_button"
+            android:textSize="20sp" />
+    </LinearLayout> 
+   
+    
+    <LinearLayout
+        android:id="@+id/lyPinyinRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/lyRow3"
+    
+       	android:background="#C7C7C7" >
+
+        <TextView
+            android:id="@+id/pinyin3A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin3B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin3C"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin3D"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin3E"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin3F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+    </LinearLayout>
+     
+    <LinearLayout
+        android:id="@+id/lyRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF" >
+        
+     
+        <Button
+            android:id="@+id/btnRow4A"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:background="@drawable/solved_button"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow4B"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:background="@drawable/solved_button"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow4C"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:background="@drawable/solved_button"
+            android:textColor="#024A68"
+            android:layout_marginRight="2sp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow4D"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:background="@drawable/solved_button"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow4E"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow4F"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:background="@drawable/solved_button"
+            android:textColor="#024A68" 
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyPinyinRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/lyRow4"
+        android:background="#C7C7C7" >
+
+        <TextView
+            android:id="@+id/pinyin4A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin4B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin4C"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin4D"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin4E"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin4F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/lyRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lyPinyinRow4"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/btnRow5A"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow5B"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow5C"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow5D"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow5E"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow5F"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/lyPinyinRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/lyRow5"
+        android:background="#c7c7c7" >
+
+        <TextView
+            android:id="@+id/pinyin5A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin5B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin5C"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin5D"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin5E"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin5F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/lyRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lyPinyinRow5"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/btnRow6A"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68"
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button" 
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow6B"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow6C"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow6D"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow6E"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:layout_marginRight="2sp"
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRow6F"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="solvedOnClick"
+            android:text="我"
+            android:textColor="#024A68" 
+            android:background="@drawable/solved_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+    
+      <LinearLayout
+        android:id="@+id/lyPinyinRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/lyRow6"
+        android:background="#C7C7C7" >
+
+        <TextView
+            android:id="@+id/pinyin6A"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin6B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin6C"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin6D"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin6E"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pinyin6F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="you"
+            android:textColor="#024A68"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+     <LinearLayout
+         android:id="@+id/lyRow7"
+         android:layout_width="fill_parent"
+         android:layout_height="110dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@id/lyPinyinRow5"
+         android:background="#024A68" >
+
+         <TextView
+             android:id="@+id/lblEnglishSentence"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="#024A68"
+             android:layout_marginLeft="4dp"
+             android:layout_marginTop="6dp"
+             android:layout_weight="1"
+             android:text="English Sentence Goes Here and it can fit this many characters in	total. Which is actually quite a few considering this is such a small text field."
+             android:textAlignment="center"
+             android:textColor="#FFFFFF" />
+
+         <Button
+             android:id="@+id/btnSpeak"
+             android:layout_width="27dp"
+             android:layout_height="fill_parent"
+             android:layout_marginBottom="2dp"
+             android:background="@drawable/main_button"
+             android:onClick="toSpeak"
+             android:text="S\np\ne\na\nk" />
+     </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/lyRow8"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#024A68" >
+             <Button
+		        android:id="@+id/btnReset"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:layout_marginRight="2dp"
+		        android:background="@drawable/main_button"
+		        android:onClick="resetText"
+		        android:text="Reset" />
+         <Button
+                android:id="@+id/btnSolve"
+                android:layout_width="fill_parent"
+           	    android:layout_height="fill_parent"
+           	    android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/main_button"
+                android:onClick="solveSentence"
+                android:text="Solve" />
+
+            <Button
+                android:id="@+id/btnCheckNext"
+                android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_button"
+                android:onClick="checkNextCard"
+                android:text="Check" />
+        </LinearLayout>  
+</LinearLayout>

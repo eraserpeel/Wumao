@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout5"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_gravity="center"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight=".6"
+        android:orientation="vertical" >
+    <Button
+	        android:id="@+id/bPlay"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/main_button"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+	        android:text="@string/button_play" />
+ 		
+ 		<Button
+	        android:id="@+id/bSettings"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/main_button"
+            android:layout_marginTop="4sp"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+	        android:text="@string/button_settings" />
+  		
+  		<Button
+	        android:id="@+id/bStatistics"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/main_button"
+            android:layout_marginTop="4sp"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+	        android:text="@string/button_statistics" />
+
+	    <Button
+	        android:id="@+id/bAbout"
+	        android:layout_height="wrap_content"
+	    	android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_marginTop="4sp"
+            android:background="@drawable/main_button"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+	        android:text="@string/button_about" />
+        
+    
+        
+    </LinearLayout>
+
+ 	<LinearLayout
+ 	    android:id="@+id/LinearLayou4"
+ 	    android:layout_width="0dip"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_weight=".3"
+ 	    android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>
